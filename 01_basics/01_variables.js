@@ -8,3 +8,4 @@ console.log(myName)
 let MyClass = "12th"
 MyClass= "graduation"
 console.log(MyClass)
+console.log()
