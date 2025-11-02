@@ -13,6 +13,3 @@ let totalAge =age + age2
 // console.log("total age = "+ (totalAge) )
 
 
-function greet(accountEmail) 
-console.log(have a greet)
-greet("Aarav")
