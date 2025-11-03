@@ -1,4 +1,6 @@
-//================ Variables and data types=============//
+//================ 2.Variables and data types=============//
+
+
 function greet(name, age) {
   // console.log(`Hello my name is ${name} and i am ${age} year's old`);
 }
@@ -21,24 +23,75 @@ x = "text";
 x = 100;
 // console.log(x)
 
-// ============ Conditional Statements (If-Else/Switch)===============//
 
-let age = 10;
-if (age >= 18) {
-  //   console.log("You can vote");
-} else {
-  //   console.log("you can't vote");
+// ============ 3.Conditional Statements (If-Else/Switch)===============//
+
+
+// let age = 10;
+// if (age >= 18) {
+//   //   console.log("You can vote");
+// } else {
+//   //   console.log("you can't vote");
+// }
+
+// let num = 126;
+// if (num % 3 === 0) {
+//   //   console.log("DIVIDED")
+// } else {
+//   //   console.log("NOT DIVIDED")
+// }
+
+// let myMarks = 20;
+// if (myMarks >= 90) console.log("grade A");
+// else if (myMarks >= 75) console.log("grade B");
+// else  if (myMarks >=30) console.log("gade C");
+// else console.log("fail")
+
+// let day = 2
+// switch (day) {
+//   // case 1: console.log("Monday"); break;
+//   // case 2: console.log("Tuesday"); break;
+//   // case 3: console.log("Widnesday"); break;
+//   // default: console.log("Invalid day");
+// }
+
+
+// ================= 4.Loops(for, wnile, do...while)==============//
+
+  
+// for (let i = 1; i <= 5; i++) {   //1<=5 true 2<=5 true 3<=5 true 4<=5 true //
+//   // console.log(i);
+// }
+
+// for (let j = 1; j <= 10; j++) {
+
+//   // console.log(2 * j)
+//   // console.log(`2 x ${j} = ${2*j}`);
+// }
+
+// let i = 1;
+// while (i <= 3) {
+// //   console.log("Count:", i);
+//   i++;
+// }
+
+// let i = 1;
+// while (i <= 10) {
+//   // console.log("Count:", i*2);
+//   // console.log(`2 x ${i} = ${2 * i}`);
+//   i++;
+// }
+
+// let num = 5;
+// let fact = 1;
+// for (let k = 1; k <= num; k++) {
+//   // fact *= k; 
+//   fact = fact*k
+//   // console.log("Factorial:", fact);
+// }
+
+for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 2 j++) {
+    console.log(`i=${i}, j=${j}`);
+  }
 }
-
-let num = 126;
-if (num % 3 === 0) {
-  //   console.log("DIVIDED")
-} else {
-  //   console.log("NOT DIVIDED")
-}
-
-let myMarks = 20;
-if (myMarks >= 90) console.log("grade A");
-else if (myMarks >= 75) console.log("grade B");
-else  if (myMarks >=30) console.log("gade C");
-else console.log("fail")
