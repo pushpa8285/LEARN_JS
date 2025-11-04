@@ -65,10 +65,10 @@
 
 // let day = 2
 // switch (day) {
-//   // case 1: console.log("Monday"); break;
-//   // case 2: console.log("Tuesday"); break;
-//   // case 3: console.log("Widnesday"); break;
-//   // default: console.log("Invalid day");
+//   case 1: console.log("Monday"); break;
+//   case 2: console.log("Tuesday"); break;
+//   case 3: console.log("Widnesday"); break;
+//   default: console.log("Invalid day");
 // }
 
 
@@ -106,17 +106,45 @@
 //   // console.log("Factorial:", fact);
 // }
 
-for (let i = 1; i <= 3; i++) {
-  for (let j = 1; j <= 3; j++) {
-    // console.log(`i=${i}, j=${j}`);
-  }
-}
+// for (let i = 1; i <= 3; i++) {
+//   for (let j = 1; j <= 3; j++) {
+//     // console.log(`i=${i}, j=${j}`);
+//   }
+// }
 
 
 //============= 5.Functions==============//
 
 
-function sayHello() {
-  console.log("Hello!");
+// function sayHello() {
+//   console.log("Hello!");
+// }
+// sayHello ();
+
+// function add(a, b) {
+  // return a + b;
+// }
+// console.log(add(4, 6));
+//======= arrow function{(a, b)=> a+b}======
+// let addition = (a, b)=> a+b
+// console.log(addition(2, 5))
+
+// // const multiply = (a,b) => a * b;
+// // // console.log(multiply(3, 5));
+
+function checkprime(num) {
+  if (num < 2) return false;
+  for (let i = 2; i <= Math.sqrt(num); i++ ){
+    if (num % i === 0) return false;
+  }
+  return true;
 }
-sayHello ();
+console.log(checkprime(210));
+
+function c 
+
+
+//========================= 6.Arrays==========================//
+
+
+let fruits = ["App"]
