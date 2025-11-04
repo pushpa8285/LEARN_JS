@@ -1,27 +1,43 @@
+//===============1.Introduction to JavaScript==========//
+
+
+// const accountID = 144553;
+// let accountEmail = "pusspa85855@gmail.com";
+// console.log(accountEmail)
+
+// const myName ="Pushpa Kumai"
+// console.log(myName)
+
+// let MyClass = "12th"
+// MyClass= "graduation"
+// console.log(MyClass)
+// console.log()
+
+
 //================ 2.Variables and data types=============//
 
 
-function greet(name, age) {
-  // console.log(`Hello my name is ${name} and i am ${age} year's old`);
-}
+// function greet(name, age) {
+//   // console.log(`Hello my name is ${name} and i am ${age} year's old`);
+// }
 
-greet("Aarav", 22);
-greet("pushpa", 12);
+// greet("Aarav", 22);
+// greet("pushpa", 12);
 
-const pi = 3.1216;
+// const pi = 3.1216;
 // console.log("value of pi:", pi)
 
-let myName = "Pushpa";
-let isStudent = true;
-let marks = 70;
+// let myName = "Pushpa";
+// let isStudent = true;
+// let marks = 70;
 // console.log( myName, isStudent)
 
-let x;
-x = "text";
-// console.log(x)
-// to make dublicate press Alt+Shift+down arrow === console.log(x)
-x = 100;
-// console.log(x)
+// let x;
+// x = "text";
+// // console.log(x)
+// // to make dublicate press Alt+Shift+down arrow === console.log(x)
+// x = 100;
+// // console.log(x)
 
 
 // ============ 3.Conditional Statements (If-Else/Switch)===============//
@@ -91,7 +107,16 @@ x = 100;
 // }
 
 for (let i = 1; i <= 3; i++) {
-  for (let j = 1; j <= 2 j++) {
-    console.log(`i=${i}, j=${j}`);
+  for (let j = 1; j <= 3; j++) {
+    // console.log(`i=${i}, j=${j}`);
   }
 }
+
+
+//============= 5.Functions==============//
+
+
+function sayHello() {
+  console.log("Hello!");
+}
+sayHello ();
