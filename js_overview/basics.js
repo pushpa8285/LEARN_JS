@@ -132,19 +132,54 @@
 // // const multiply = (a,b) => a * b;
 // // // console.log(multiply(3, 5));
 
-function checkprime(num) {
-  if (num < 2) return false;
-  for (let i = 2; i <= Math.sqrt(num); i++ ){
-    if (num % i === 0) return false;
-  }
-  return true;
-}
-console.log(checkprime(210));
+// function checkprime(num) {
+//   if (num < 2) return false;
+//   for (let i = 2; i <= Math.sqrt(num); i++ ){ 
+//     if (num % i === 0) return false;
+//   }
+//   return true;
+// }
+// // console.log(checkprime(11)); // // true
+// // console.log(checkprime(12)); // // false
+// // console.log(checkprime(21)); // // false
+// // console.log(checkprime(29)); // // true
 
-function c 
+// function isPrime(num) {
+//   if (num < 2) {
+//     return false; //number less than 2 are not prime
+//   }
 
+//   for (let i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//       return false; //divisible by i means not prime
+//     }
+//   }
+
+//   return true; //no divisors found, so it's prime
+// } 
+
+// console.log(isPrime(20)); //
 
 //========================= 6.Arrays==========================//
 
 
-let fruits = ["App"]
+// let fruits = ["Apple", "Banana", "Mango"]
+// console.log(fruits[2]);
+
+// let numbers = [1, 2, 3,];
+// numbers.push(10);
+// console.log(numbers.length);
+
+// let marks = [80, 90, 100];
+// let total = 0;
+// for (let m of marks) total += m;
+// console.log("Average:", total / marks.length) //[(80+90+100) / 3 = 90]
+
+  let nums = [1, 2, 3, 4, 5];
+  let squares = nums.map(n => n * n);
+console.log(squares);
+
+
+//=================== 7.Objects===========================//
+
+
