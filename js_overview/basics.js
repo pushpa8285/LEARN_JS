@@ -1,5 +1,6 @@
 //===============1.Introduction to JavaScript==========//
 
+// const { use } = require("react");
 
 // const accountID = 144553;
 // let accountEmail = "pusspa85855@gmail.com";
@@ -13,9 +14,7 @@
 // console.log(MyClass)
 // console.log()
 
-
 //================ 2.Variables and data types=============//
-
 
 // function greet(name, age) {
 //   // console.log(`Hello my name is ${name} and i am ${age} year's old`);
@@ -39,9 +38,7 @@
 // x = 100;
 // // console.log(x)
 
-
 // ============ 3.Conditional Statements (If-Else/Switch)===============//
-
 
 // let age = 10;
 // if (age >= 18) {
@@ -71,10 +68,8 @@
 //   default: console.log("Invalid day");
 // }
 
-
 // ================= 4.Loops(for, wnile, do...while)==============//
 
-  
 // for (let i = 1; i <= 5; i++) {   //1<=5 true 2<=5 true 3<=5 true 4<=5 true //
 //   // console.log(i);
 // }
@@ -101,7 +96,7 @@
 // let num = 5;
 // let fact = 1;
 // for (let k = 1; k <= num; k++) {
-//   // fact *= k; 
+//   // fact *= k;
 //   fact = fact*k
 //   // console.log("Factorial:", fact);
 // }
@@ -112,9 +107,7 @@
 //   }
 // }
 
-
 //============= 5.Functions==============//
-
 
 // function sayHello() {
 //   console.log("Hello!");
@@ -122,7 +115,7 @@
 // sayHello ();
 
 // function add(a, b) {
-  // return a + b;
+// return a + b;
 // }
 // console.log(add(4, 6));
 //======= arrow function{(a, b)=> a+b}======
@@ -134,7 +127,7 @@
 
 // function checkprime(num) {
 //   if (num < 2) return false;
-//   for (let i = 2; i <= Math.sqrt(num); i++ ){ 
+//   for (let i = 2; i <= Math.sqrt(num); i++ ){
 //     if (num % i === 0) return false;
 //   }
 //   return true;
@@ -156,12 +149,11 @@
 //   }
 
 //   return true; //no divisors found, so it's prime
-// } 
+// }
 
 // console.log(isPrime(20)); //
 
 //========================= 6.Arrays==========================//
-
 
 // let fruits = ["Apple", "Banana", "Mango"]
 // console.log(fruits[2]);
@@ -175,11 +167,55 @@
 // for (let m of marks) total += m;
 // console.log("Average:", total / marks.length) //[(80+90+100) / 3 = 90]
 
-  let nums = [1, 2, 3, 4, 5];
-  let squares = nums.map(n => n * n);
-console.log(squares);
-
+// let nums = [1, 2, 3, 4, 5];
+// let squares = nums.map((n) => n * n);
+// // console.log(squares);
 
 //=================== 7.Objects===========================//
 
+// let person = { name: "Ravi", age: 22 };
+// // console.log(person.name, "age", person.age);
 
+// let car = {
+//   brand: "Toyora",
+//   model: "Fortuner",
+//   start: function () {
+//     // console.log("Car started");
+//   },
+// };
+// car.start();
+
+// let student = {
+//   name: "Anaya",
+//   subjects: ["Math", "Science"],
+//   marks: { Math: 90, Science: 85 }
+// };
+// // console.log(student.name);
+// // console.log(student.marks.Math);
+
+// let users = [
+//   { id: 1, name: "Aman" },
+//   { id: 2, name: "Neha" },
+//   { id: 3, name: "Rohit" },
+// ];
+// // users.forEach((u) => console.log(u.name,u.id) );
+// users.forEach((u) => console.log(`Hello ${u.name} your id nomber is ${u.id}`) );
+
+
+//===================== 8.DOM Manupulation (Document Object Model)=================//
+
+//===================== 9.Events====================//
+
+
+//===================== 10.Advanced Topics (Briefly)=================//
+
+
+// async function getData() {
+//   let response = await fetch("https://jso")
+//   let data = await response.json();
+//   console.log(data);
+// }
+// getData();
+
+
+//============= 11.Opeators (Full, Derailed List with signs)===============//
