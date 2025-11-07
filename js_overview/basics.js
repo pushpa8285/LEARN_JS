@@ -219,3 +219,97 @@
 
 
 //============= 11.Opeators (Full, Derailed List with signs)===============//
+//=====1) Arithmetic Opeators======//
+
+// Signs: (+)Addition, (-)Subtraction, (*)Multiplication,  (/)division,  (%)modulus,  (**)exponentiation
+
+// let a = 10 + 5;
+// let b = 10 - 3;
+// let c = 4 * 6;
+// let d = 20 / 4;
+// let e = 10 % 3;
+// let f = 2 ** 3;
+// console.log(a,b,c,d,e,f);
+
+// let price = 199.99;
+// let tax = price * 0.81;
+// let total = price + tax;
+// console.log("Total:", total.toFixed(3));
+
+//=== 2) Assignment Operators===//
+
+//Signs: (=)assigns value;
+//  (+=)adds and assigns;
+//  (-=)subtract & assigns;
+//  (*=)multiply & assigns;
+//  (/=)divide & assigns;
+//  (%=)modulus & assigns;
+//  (**=)exponent & assigns;
+
+// let x = 5;
+// x += 3;         //x=x+3=8(5+3)
+// x *= 3;         //x=x*3=24(8*3)
+// x **= 2;        //x=x**2=576(24*24)
+// console.log(x);
+
+//===3) Comparison Operators===//
+
+// (==)loose equality(type coecion allowed);
+// (===)strict equality(type+CSSMathValue;
+// (!=)not equal too;
+// (!==)similarly for inequality;
+// (<=)greater then equal too;
+
+// console.log(5 == "5");      //true (loose)
+// console.log(5 == 5);        //true  
+// console.log(5 === "5");     //false (strict)
+// console.log(5 === 5);     //true (strict)
+// console.log(10 > 7);        //true
+// console.log(5 <= 5);        //true
+// console.log(5 != 10);        //true
+// console.log(5 != 5);        //false
+// console.log(5 !== 5);        //false
+
+// important note --- prefer (===)and(!==) ,because it also cheq type
+
+//=== 4.Logical Operators===/
+// Signs: (&&)AND;
+// (||)OR;
+// (!)NOT;
+
+// let loggedIn = false, isAdmin = true;
+// console.log(loggedIn && isAdmin);   //false
+// console.log(loggedIn || isAdmin);   //true
+// console.log(!loggedIn);             //true
+
+// let user = null;
+// let name = user && user.name;
+// let display = user || "Guest";
+// console.log(name, display);
+
+//=== 5.Tirnany Operator (Conditional shorthand)===//
+
+// Sign: condition ? ezptIfTrue : exptIfFalse
+
+// let age = 20
+// let canVote = (age >= 21) ? "yes" : "No";
+// console.log(canVote);
+
+//===6) Unary Operator
+// signs/keywods:++(increment);
+//  --(decement);
+
+// let n = 5;
+// console.log(++n);       //6
+// let m = 5;
+// console.log(m++);       //5   
+// console.log(typeof "hello");
+// let obj = {a:1, b:2};
+// delete obj.a;
+// console.log(obj);
+
+//rare case//
+// console.log(void 0);
+
+//=== 7)Spread and Rest(Ellipsis)===//
+
